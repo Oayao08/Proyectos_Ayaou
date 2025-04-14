@@ -1,8 +1,8 @@
 Presentacion Omar Ayaou
-<div style=color:"white"> 
-Pàgina hecha con HTML y CSS para practicar estructuras básicas. Contiene una estructura básica, presentación personal, habilidades y un formulario
-Desarrollada por iniciativa propia como parte de mi aprendizaje en FPLlefià
-<div/>
+    <div style=color:"white"> 
+        Pàgina hecha con HTML y CSS para practicar estructuras básicas. Contiene una estructura básica, presentación personal, habilidades y un formulario
+        Desarrollada por iniciativa propia como parte de mi aprendizaje en FPLlefià
+    <div/>
 <html>
 <head>
     <style>
