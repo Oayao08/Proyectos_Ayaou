@@ -1,8 +1,6 @@
 Presentacion Omar Ayaou
-    <div style=color:"white"> 
-        Pàgina hecha con HTML y CSS para practicar estructuras básicas. Contiene una estructura básica, presentación personal, habilidades y un formulario
-        Desarrollada por iniciativa propia como parte de mi aprendizaje en FPLlefià
-    <div/>
+        Pàgina hecha con HTML y CSS para practicar estructuras básicas. Contiene una estructura básica, presentación personal, habilidades y un formulario.
+        Desarrollada por iniciativa propia como parte de mi aprendizaje en FPLlefià.
 <html>
 <head>
     <style>
@@ -37,7 +35,7 @@ Presentacion Omar Ayaou
 </head>
 <body>
     <header>
-        <img src= "img/Captura de pantalla 2025-04-14 130917.png" width="125" height="100">
+        <img src= "img/[Captura de pantalla 2025-04-14 130917.png](https://github.com/user-attachments/assets/f5429109-d52f-4657-aada-dc0af5c0767f))" width="125" height="100">
         <h1>Omar Ayaou</h1>
     </header>
 </body>
@@ -71,7 +69,7 @@ Presentacion Omar Ayaou
 
         </ol>
     </div>
-<!--Este formulario no funciona al 100%-->
+<!--Este formulario es una prueba-->
     <div>
         <form action="/formulario" method="POST">
             <label for="Nombre">Nombre</label>
