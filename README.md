@@ -35,7 +35,7 @@ Presentacion Omar Ayaou
 </head>
 <body>
     <header>
-        <img src= "img/[Captura de pantalla 2025-04-14 130917.png](https://github.com/user-attachments/assets/f5429109-d52f-4657-aada-dc0af5c0767f))" width="125" height="100">
+        <img src= "![Image](https://github.com/user-attachments/assets/f5429109-d52f-4657-aada-dc0af5c0767f)" width="125" height="100">
         <h1>Omar Ayaou</h1>
     </header>
 </body>
