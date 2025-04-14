@@ -37,7 +37,7 @@ Presentacion Omar Ayaou
 </head>
 <body>
     <header>
-        <img src= "Captura de pantalla 2025-04-14 130917.png" width="100" height="100">
+        <img src= "img/Captura de pantalla 2025-04-14 130917.png" width="125" height="100">
         <h1>Omar Ayaou</h1>
     </header>
 </body>
