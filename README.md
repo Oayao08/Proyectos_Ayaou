@@ -1,6 +1,7 @@
-Presentacion Omar Ayaou
-        Pàgina hecha con HTML y CSS para practicar estructuras básicas. Contiene una estructura básica, presentación personal, habilidades y un formulario.
-        Desarrollada por iniciativa propia como parte de mi aprendizaje en FPLlefià.
+Pàgina hecha con HTML y CSS para practicar estructuras básicas.
+<br> Contiene una estructura básica, presentación personal, habilidades y un formulario.
+<br>Desarrollada por iniciativa propia como parte de mi aprendizaje en FPLlefià.
+
 <html>
 <head>
     <style>
@@ -54,15 +55,15 @@ Presentacion Omar Ayaou
             <li style="list-style-type: lower- alpha;">Liderazgo</li>
             <li style="list-style-type: lower- alpha;">Constancia</li>
             <li style="list-style-type: lower- alpha;">Responsabilidad</li>
-            <li style="list-style-type: lower- alpha;">Alta capacidad de aprendizaje</li>
             <li style="list-style-type: lower- alpha;">Aprendizaje rápido</li>
+            <li style="list-style-type: lower- alpha;">Gran capacidad de aprendizaje</li>
         </ol>
     
     </section>
     <div>
         <h2 style="color: rgb(255, 255, 255);">Habilidades técnicas</h2>
         <ol style="color: rgb(255, 255, 255);">
-            <li style="list-style-type: lower- alpha;" value="1">Programación 1</li>
+            <li style="list-style-type: lower- alpha;" value="1">Programación</li>
             <li style="list-style-type: lower- alpha;">Diseño web</li>
             <li style="list-style-type: lower- alpha;">Conocimientos de HTML + CSS</li>
             <li style="list-style-type: lower- alpha;">Resolución de problemas técnicos</li>
@@ -100,6 +101,7 @@ Presentacion Omar Ayaou
     </footer>
     </body>
     </html>
+    
     git commit -m "Pàgina web"
     git push -u origin main
 
