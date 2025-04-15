@@ -5,7 +5,7 @@ Presentacion Omar Ayaou
 <head>
     <style>
         body {
-            background-color: #000000;
+            background-color: #000;
             margin: 0;
             padding: 0;
         }
@@ -35,17 +35,17 @@ Presentacion Omar Ayaou
 </head>
 <body>
     <header>
-        <img src= "![Image](https://github.com/user-attachments/assets/f5429109-d52f-4657-aada-dc0af5c0767f)" width="125" height="100">
+        <img src= "![Image](https://github.com/user-attachments/assets/f5429109-d52f-4657-aada-dc0af5c0767f)" width="125" height="100"/>
         <h1>Omar Ayaou</h1>
     </header>
 </body>
     <section>
         <h2 style="color: rgb(255, 255, 255);">Perfil profesional</h2>
-        <p1 style="color: rgb(255, 255, 255);"> Soy estudiante de Microinformática en FPLlefià, con competencias en programación, desarrollo y 
+        <p style="color: rgb(255, 255, 255);"> Soy estudiante de Microinformática en FPLlefià, con competencias en programación, desarrollo y 
             <br>diseño web (HTML y otras tecnologías). Me considero proactivo, constante y con gran capacidad
             <br>de aprendizaje, habilidades que me han permitido liderar proyectos colaborativos. Mi motivación
             <br>reside en enfrentar nuevos desafíos y aplicar mis conocimientos en iniciativas prácticas que 
-            <br>demuestren mi capacidad técnica y mi sentido del trabajo en equipo.</p1>
+            <br>demuestren mi capacidad técnica y mi sentido del trabajo en equipo.</p>
     </section>
     <section>
         <h2 style="color: rgb(255, 255, 255);">Habilidades blandas</h2>
@@ -82,9 +82,9 @@ Presentacion Omar Ayaou
             <br>
             <textarea cols="75" rows="15" placeholder="Ingrese comentario"></textarea>
             <br>
-            <input type="submit" /><input>
+            <input type="submit" />
             <br>
-            <input type="reset" /><input>
+            <input type="reset" />
         </form>
     </div>
 
