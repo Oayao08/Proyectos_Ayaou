@@ -1,0 +1,155 @@
+:root {
+    --primary: #000;
+    --accent: #d6d6d6;
+    --font: 'Segoe UI', sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font);
+    background-color: #111;
+    color: var(--accent);
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #000;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.8em;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #d6d6d6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #fff;
+  }
+  
+  .hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .proyectos, .sobre-mi, .contacto {
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #2c2c2c;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  footer {
+    background-color: #000;
+    color: #888;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8em;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.8s ease-out;
+  }
+  
+  .appear {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.4s ease-in-out;
+    z-index: 100;
+  }
+  
+  .hero {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-slider {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1.02;
+  }
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.7s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .hero-content {
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 8px;
+  }
+  
