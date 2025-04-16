@@ -24,10 +24,14 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
             color: rgb(255, 255, 255);
             text-align: center;
             flex: 1;
+            border-style: solid;
+            border-color: gray dashed;
+            border-radius: 5px;
+            border-width: 3mm;
         }
         .section {
             font-family: 'Garamond';
-            font-size: 1%;
+            font-size: 1;
             font-weight: normal;
             color: #fff;
             white-space: nowrap;
