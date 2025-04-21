@@ -76,11 +76,11 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
 <!--Este formulario es una prueba mía-->
     <div>
         <form action="/formulario" method="POST">
-            <label for="Nombre">Nombre</label>
+            <label style="color: white" for="Nombre">Nombre</label>
             <br>
             <input type="text" id="Nombre" placeholder="Mi nombre es..."/>
             <br>
-            <label for="Apellido">Apellido</label>
+            <label style="color: white" for="Apellido">Apellido</label>
             <br>
             <input type="text" name="Apellido" placeholder="Mi apellido es..."/>
             <br>
