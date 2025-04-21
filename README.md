@@ -1,6 +1,6 @@
-Pàgina hecha con HTML y CSS para practicar estructuras básicas.
+<p styke="color:white"◻️>Pàgina hecha con HTML y CSS para practicar estructuras básicas.
 <br> Contiene una estructura básica, presentación personal, habilidades y un formulario.
-<br>Desarrollada por iniciativa propia como parte de mi aprendizaje en el campo de la programación.
+<br>Desarrollada por iniciativa propia como parte de mi aprendizaje en el campo de la programación.<p>
 
 <html>
 <head>
