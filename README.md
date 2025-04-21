@@ -49,8 +49,8 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
         <p style="color: rgb(255, 255, 255);"> Soy estudiante de Microinformática en FPLlefià, con competencias en programación, desarrollo y 
             <br>diseño web (HTML y otras tecnologías). Me considero proactivo, constante y con gran capacidad
             <br>de aprendizaje, habilidades que me han permitido liderar proyectos colaborativos. Mi motivación
-            <br>reside en enfrentar nuevos desafíos y aplicar mis conocimientos en iniciativas prácticas que 
-            <br>demuestren mi capacidad técnica y mi sentido del trabajo en equipo.</p>
+            <br>esta especialmente en enfrentar nuevos desafíos y aplicar mis conocimientos en iniciativas prácticas que 
+            <br>puedan demoestrar mi capacidad técnica y mi sentido del trabajo en equipo.</p>
     </section>
     <section>
         <h2 style="color: rgb(255, 255, 255);">Habilidades blandas</h2>
@@ -62,19 +62,18 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
             <li style="list-style-type: lower- alpha;">Aprendizaje rápido</li>
             <li style="list-style-type: lower- alpha;">Gran capacidad de aprendizaje</li>
         </ol>
-    
     </section>
-    <div>
+   
+<div>
         <h2 style="color: rgb(255, 255, 255);">Habilidades técnicas</h2>
         <ol style="color: rgb(255, 255, 255);">
             <li style="list-style-type: lower- alpha;" value="1">Programación</li>
             <li style="list-style-type: lower- alpha;">Diseño web</li>
             <li style="list-style-type: lower- alpha;">Conocimientos de HTML + CSS</li>
             <li style="list-style-type: lower- alpha;">Resolución de problemas técnicos</li>
-
         </ol>
     </div>
-<!--Este formulario es una prueba-->
+<!--Este formulario es una prueba mía-->
     <div>
         <form action="/formulario" method="POST">
             <label for="Nombre">Nombre</label>
@@ -93,7 +92,7 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
         </form>
     </div>
 
-    <footer>
+<footer>
         <div class="Pie_pagina">
             <div style="border-color: #fff;">
                 <img src="https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118_1280.jpg" width="300" height="200">
@@ -102,10 +101,11 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
         <div>
             <p style="color: #fffcfc;">Todos los derechos reservados®</p>
         </div>
-    </footer>
+</footer>
     </body>
     </html>
     
-    git commit -m "Pàgina web"
-    git push -u origin main
+git commit -m "Pàgina web"
+
+git push -u origin main
 
