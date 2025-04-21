@@ -1,6 +1,6 @@
 Pàgina hecha con HTML y CSS para practicar estructuras básicas.
 <br> Contiene una estructura básica, presentación personal, habilidades y un formulario.
-<br>Desarrollada por iniciativa propia como parte de mi aprendizaje en FPLlefià.
+<br>Desarrollada por iniciativa propia como parte de mi aprendizaje en el campo de la programación.
 
 <html>
 <head>
@@ -41,7 +41,7 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
 <body>
     <header>
         <img src= "![Image](https://github.com/user-attachments/assets/f5429109-d52f-4657-aada-dc0af5c0767f)" width="125" height="100"/>
-        <h1>Omar Ayaou</h1>
+        <h1 style= "color:white">Omar Ayaou</h1>
     </header>
 </body>
     <section>
@@ -76,7 +76,7 @@ Pàgina hecha con HTML y CSS para practicar estructuras básicas.
 <!--Este formulario es una prueba mía-->
     <div>
         <form action="/formulario" method="POST">
-            <label style="color: white" for="Nombre">Nombre</label>
+            <label style="color:white" for="Nombre">Nombre</label>
             <br>
             <input type="text" id="Nombre" placeholder="Mi nombre es..."/>
             <br>
