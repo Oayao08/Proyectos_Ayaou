@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head id="top">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
+    <title>CV online</title>
     <style>
         body {
             background-color: #000;
@@ -36,8 +36,9 @@
             padding: 20px;
             box-shadow: 0 4px 8px rgba(255,255,255,0.05);
         }
-        h2 {
+        h2, h3 {
             font-size: 1.5rem;
+            color: "#1e3a5f"
         }
         p, li {
             font-size: 1rem;
@@ -97,21 +98,21 @@
     </header>
 
     <section>
-        <h2 style= "color: #1e3a5f">Perfil profesional</h2>
+        <h2>Perfil profesional</h2>
         <p>Soy estudiante de Microinformática en FPLlefià, con competencias en programación, desarrollo y diseño web (HTML y otras tecnologías).Me considero proactivo, constante y con gran capacidad de aprendizaje, habilidades que me han permitido liderar proyectos colaborativos. Mi motivación está especialmente en enfrentar nuevos desafíos y aplicar mis conocimientos en iniciativas prácticas que puedan demostrar mi capacidad técnica y mi sentido del trabajo en equipo.</p>
     </section>
 
     <section>
-        <h2 style= "color: #1e3a5f">Formación</h2>
+        <h2>Formación</h2>
         <ul>
             <li>Graduado en ESO en Mary Ward</li>
-            <li>Actualmente, cursado grado medio de Microinformática</li>
+            <li>Actualmente, cursando el grado medio de Microinformática</li>
         </ul>
     </section>
 
     <section>
-        <h2 style= "color: #1e3a5f">CFGM Sistemas microinformáticos y redes</h2>
-        <h3 style= "color: #1e3a5f">Contenido del primer año</h3>
+        <h2>CFGM Sistemas microinformáticos y redes</h2>
+        <h3>Contenido del primer año</h3>
         <ul>
             <li>Montaje y mantenimiento de equipos</li>
             <li>Sistemas operativos monositio</li>
@@ -125,7 +126,7 @@
             <li>Sostenibilidad aplicada al sistema productivo</li>
         </ul>
 
-         <h3 style= "color: #1e3a5f">Contenido del segundo año</h3>
+         <h3>Contenido del segundo año</h3>
         <ul>
             <li>Sistemas operativos en red</li>
             <li>Seguridad informática</li>
@@ -138,7 +139,7 @@
     </section>
         
     <section>
-        <h2 style= "color: #1e3a5f">Idiomas</h2>
+        <h2>Idiomas</h2>
         <ul>
             <li>Castellano: Nativo</li>
             <li>Catalán: Nativo</li>
@@ -149,7 +150,7 @@
     </section>
         
     <section>
-        <h2 style= "color: #1e3a5f">Habilidades blandas</h2>
+        <h2>Habilidades blandas</h2>
         <ol>
             <li>Innovación</li>
             <li>Liderazgo</li>
@@ -161,7 +162,7 @@
     </section>
 
     <section>
-        <h2 style= "color: #1e3a5f">Habilidades técnicas</h2>
+        <h2>Habilidades técnicas</h2>
         <ol>
             <li>Programación</li>
             <li>Diseño web</li>
@@ -171,14 +172,14 @@
     </section>
 
     <section>
-        <h2 style= "color: #1e3a5f">¿Cómo hice esta web?</h2>
+        <h2>¿Cómo hice esta web?</h2>
         <p>Esta página web es el resultado de un proyecto personal que desarrollé de manera autodidacta. Utilicé HTML y CSS para crear un diseño responsive, demostrando mi capacidad para aprender y aplicar nuevas habilidades por iniciativa propia. Este proyecto refleja mi compromiso con el autoaprendizaje y mi capacidad para enfrentar desafíos de forma totalmente independiente, algo primordial para mi desarrollo profesional.
 
 </p>
     </section>
     
     <section>
-        <h2 style= "color: #1e3a5f">Formulario de contacto</h2>
+        <h2>Formulario de contacto</h2>
         <form action="/formulario" method="POST">
             <label for="Nombre">Nombre</label><br>
             <input type="text" id="Nombre" placeholder="Mi nombre es..."/><br>
@@ -192,6 +193,18 @@
             <input type="reset" value="Borrar"/>
         </form>
     </section>
+    
+    <a href="#top" style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a5f;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+">↑</a>
+
 
     <footer>
         <img src="https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118_1280.jpg" alt="Imagen de portátil">
