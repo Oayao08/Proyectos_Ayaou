@@ -2,4 +2,4 @@
 
 > Contiene una estructura básica, presentación personal, habilidades y un formulario.
 
-``` Desarrollada por iniciativa propia como parte de mi aprendizaje en el campo de la programación ```
+``` Desarrollada por iniciativa propia como parte de mi aprendizaje en el campo de la informática ```
